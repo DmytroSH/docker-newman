@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  postmantest:
+    image: postmantest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: testrun
+    volumes:
+      - ./artifacts:/artifacts
+
+volumes:
+  artifacts:

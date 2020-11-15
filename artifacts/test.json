@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "0544d269-3ba6-463e-824b-fad42f23b885",
+		"name": "test-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{URL}}/api/v1/employees",
+					"protocol": "http",
+					"host": [
+						"{{URL}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "86a39291-1bf3-4386-b051-82e5df86a43f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "2517a5e7-0aa3-43d3-99e8-ee1baf0d170e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "0483b836-e6c0-45ca-aa31-ed6f2b642f84",
+			"key": "URL",
+			"value": ""
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,14 @@
+{
+	"id": "f17b663f-80ca-41f6-8945-f3a5948fcb14",
+	"name": "test-variables",
+	"values": [
+		{
+			"key": "URL",
+			"value": "dummy.restapiexample.com",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2020-11-15T19:04:15.437Z",
+	"_postman_exported_using": "Postman/7.35.0"
+}
