@@ -23,9 +23,29 @@ image</a> from docker hub:
 docker pull dmytrosh/docker-newman
 ```
 
+### Run from this repository
+
+
+**Step 1:**
+
+Clone this repository:
+
+```terminal
+git clone https://github.com/DmytroSH/docker-newman.git
+```
+
+**Step 2:**
+
+Run docker compose:
+
+```terminal
+docker-compose up
+```
+
+
 ## Usage example
 
-## Development setup
+TBD
 
 
 ## Release History
