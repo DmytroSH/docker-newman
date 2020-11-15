@@ -2,10 +2,26 @@
 > Docker image to run postman collections.
 
 
-
 ![](example.png)
 
 ## Installation
+
+The docker image for Newman is available for download from our docker hub. You must have Docker installed in your
+system. Docker has extensive <a href="https://docs.docker.com/installation/" target="_blank">installation guideline for
+popular operating systems</a>. Choose your operating system and follow the instructions.
+
+> Ensure you that you have docker installed and running in your system before proceeding with next steps. A quick test
+> to see if docker is installed correctly is to execute the command `docker run hello-world` and it should run without
+> errors.
+
+**Step 1:**
+
+Pull the <a href="https://hub.docker.com/repository/docker/dmytrosh/docker-newman" target="_blank">newman docker
+image</a> from docker hub:
+
+```terminal
+docker pull dmytrosh/docker-newman
+```
 
 ## Usage example
 
