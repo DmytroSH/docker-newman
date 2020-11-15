@@ -1,12 +1,12 @@
 version: '3.7'
 
 services:
-  postmantest:
-    image: postmantest
+  docker-newman:
+    image: docker-newman
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: testrun
+    container_name: docker-newman
     volumes:
       - ./artifacts:/artifacts
 
