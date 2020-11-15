@@ -1,7 +1,7 @@
 # Docker Newman
-> Docker image to run postman collections.
+> Docker + newman integration example to run postman collections in containers.
 
-
+Postman collections run example:
 ![](example.png)
 
 ## Installation
