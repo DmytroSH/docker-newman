@@ -1,7 +1,7 @@
 # Docker Newman
-> Short blurb about what your product does.
+> Docker image to run postman collections.
 
-Docker image to run postman collections.
+
 
 ![](example.png)
 
