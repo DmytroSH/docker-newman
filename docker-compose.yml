@@ -7,6 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: docker-newman
+    environment:
+      - tests_env=dev
     volumes:
       - ./artifacts:/artifacts
 

@@ -38,6 +38,8 @@ git clone https://github.com/DmytroSH/docker-newman.git
 
 Run docker compose:
 
+You can specify env by change tests_env variable, it will use tests_env.json as postman variables
+
 ```terminal
 docker-compose up
 ```
